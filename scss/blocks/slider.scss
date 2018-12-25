@@ -21,9 +21,21 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100%;
     z-index: 1;
+    height: 100%;
+  }
+
+  .form__wrap {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 45px;
+  }
+
+  &__info {
+    flex-basis: 50%;
+    padding-left: 45px;
+    box-sizing: border-box;
   }
 
   &__title {
