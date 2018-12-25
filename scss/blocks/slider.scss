@@ -29,12 +29,11 @@
     flex-basis: 50%;
     display: flex;
     justify-content: flex-end;
-    padding-right: 45px;
+    padding-right: 90px;
   }
 
   &__info {
     flex-basis: 50%;
-    padding-left: 45px;
     box-sizing: border-box;
   }
 
@@ -50,6 +49,72 @@
   &__descr {
     font: 40px "Freestyle Script", serif;
     color: $white;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  .slider {
+
+    .form__wrap {
+      padding-right: 20px;
+    }
+
+    &__info {
+      padding-left: 20px;
+    }
+
+    &__title {
+      font-size: 40px;
+      line-height: 64px;
+      margin-bottom: 25px;
+    }
+
+  }
+
+}
+
+@media (max-width: 760px) {
+
+  .slider {
+
+    &__item {
+      padding: 50px 0;
+    }
+
+    &__content {
+      flex-wrap: wrap;
+    }
+
+    .form__wrap {
+      padding-right: 0;
+      padding-top: 20px;
+      flex-basis: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__info {
+      padding-left: 0;
+      flex-basis: 100%;
+      order: -1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    &__title {
+      font-size: 35px;
+      line-height: 50px;
+      margin-bottom: 15px;
+    }
+
+    &__descr {
+      font-size: 30px;
+    }
+
   }
 
 }
