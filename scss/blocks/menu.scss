@@ -1,0 +1,41 @@
+.menu {
+  display: flex;
+
+  &__item {
+    margin-right: 25px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    position: relative;
+    font-weight: 600;
+    color: $grey;
+    text-decoration: none;
+    @include transition;
+
+    &:after {
+      display: none;
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 1px;
+      left: 50%;
+      bottom: -5px;
+      transform: translateX(-50%);
+      background-color: $default;
+    }
+
+    &:hover {
+      color: $default;
+    }
+
+    &:hover.menu__link:after {
+      display: block;
+    }
+  }
+
+
+}

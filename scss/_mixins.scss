@@ -1,0 +1,30 @@
+@mixin min-max($min-width, $max-width, $padding) {
+  min-width: $min-width;
+  max-width: $max-width;
+  padding: 0 $padding;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@mixin transition {
+  transition: 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+@mixin btn($bg: $button, $fz: 16px, $br: 5px, $w: 170px, $clr: $white) {
+  width: $w;
+  color: $clr;
+  font-size: $fz;
+  background-color: $bg;
+  border-radius: $br;
+  border: none;
+  padding: 15px 0;
+  margin: 30px 0 35px;
+  display: block;
+  text-align: center;
+  @include transition;
+
+  &:hover {
+    background-color: $button-hover;
+  }
+
+}

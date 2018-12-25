@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yoga</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="header__container wrap">
+                <ul class="header__menu_left menu">
+                    <li class="menu__item"><a href="#" class="menu__link">About us</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Reservation</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Gallery</a></li>
+                </ul>
+                <a href="#" class="header__logo">
+                    <img src="img/header-logo.png" alt="Logo">
+                </a>
+                <ul class="header__menu_right menu">
+                    <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Elements</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Shop</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="slider">
+            <div class="slider__item">
+                <div class="slider__content">
+
+                    <form action="#" class="form">
+                        <fieldset class="form__cont">
+                            <legend class="form__title">Trial Class</legend>
+                            <input class="form__input" type="text" name="name" placeholder="Enter your name" required>
+                            <input class="form__input" type="tel" name="phone" pattern="[0-9]{5,10}"
+                                   placeholder="Enter your phone" required>
+                            <select class="yoga-class" required>
+                                <option class="yoga-class__name" value="" disabled selected>Chose your class</option>
+                                <option class="yoga-class__name" value="first">First</option>
+                                <option class="yoga-class__name" value="second">Second</option>
+                            </select>
+                        </fieldset>
+                        <input class="form__btn btn" type="submit" value="Try it">
+                    </form>
+
+                    <div class="slider__info">
+                        <p class="slider__title">Just Balance<br>your Mind &amp; Body</p>
+                        <span class="slider__descr">Create the healthy living<br>for yourself</span>
+                    </div>
+
+                </div>
+            </div>
+        </div><!--end slider-->
+
+    </div><!--end container-->
+
+</body>
+</html>
