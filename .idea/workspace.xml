@@ -2,20 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b23e27f-9890-44e9-9649-fd9e8b093231" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/scss/blocks/feture.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/owl.carousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/about-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/about-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/arrow-select.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/arrow-select.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/gallery-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/gallery-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/gallery-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/gallery-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/gallery-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/gallery-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/gallery-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/gallery-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/header-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/header-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/program-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/program-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/program-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/program-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/program-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/program-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/program-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/program-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/slide-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/slide-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/test.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/about-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/about-1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_core.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/program.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/program.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,23 +41,16 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="167" column="22" lean-forward="true" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
+            <state relative-caret-position="547">
+              <caret line="201" column="42" selection-start-line="201" selection-start-column="42" selection-end-line="201" selection-end-column="50" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#3028#3033#0" expanded="true" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scss/blocks/about.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -54,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -62,8 +67,8 @@
       <file leaf-file-name="_core.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_core.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -80,8 +85,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -91,6 +96,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feture.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/blocks/feture.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="program.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/blocks/program.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -112,14 +135,15 @@
         <option value="$PROJECT_DIR$/scss/_fonts.scss" />
         <option value="$PROJECT_DIR$/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/slider.scss" />
-        <option value="$PROJECT_DIR$/scss/style.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/gallery.scss" />
-        <option value="$PROJECT_DIR$/scss/_core.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/owl.carousel.css" />
         <option value="$PROJECT_DIR$/scss/blocks/program.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/about.scss" />
+        <option value="$PROJECT_DIR$/scss/style.scss" />
+        <option value="$PROJECT_DIR$/scss/_core.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/blocks/feture.scss" />
       </list>
     </option>
   </component>
@@ -164,11 +188,6 @@
             <path>
               <item name="yoga" type="b2602c69:ProjectViewProjectNode" />
               <item name="yoga" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yoga" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yoga" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,6 +208,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -221,12 +241,12 @@
       <updated>1545586240386</updated>
       <workItem from="1545586243331" duration="10170000" />
       <workItem from="1545603726353" duration="12707000" />
-      <workItem from="1545677764684" duration="33880000" />
+      <workItem from="1545677764684" duration="41167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56757000" />
+    <option name="totallyTimeSpent" value="64044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -287,9 +307,11 @@
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#3028#3033#0" expanded="true" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -455,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/img/program-2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -482,20 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -503,30 +504,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/img/about-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/img/about-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/img/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/img/sptite.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="167" column="22" lean-forward="true" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
+        <state relative-caret-position="547">
+          <caret line="201" column="42" selection-start-line="201" selection-start-column="42" selection-end-line="201" selection-end-column="50" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#3028#3033#0" expanded="true" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/blocks/program.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="128">
+          <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/about.scss">
+    <entry file="file://$PROJECT_DIR$/scss/blocks/feture.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state relative-caret-position="531">
+          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
         </state>
       </provider>
     </entry>

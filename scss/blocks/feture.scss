@@ -1,0 +1,130 @@
+.fetures {
+  background: url("../img/feture-bg.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(83, 99, 219, 0.8);
+  }
+
+  &__container {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 225px;
+  }
+
+  .feture {
+    flex-basis: 25%;
+    text-align: center;
+    padding-right: 25px;
+    margin-bottom: 160px;
+
+    &:nth-child(4),
+    &:nth-child(8) {
+      padding-right: 0;
+    }
+
+    &__title {
+      position: relative;
+      color: $white;
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: 700;
+      height: 54px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70px;
+        height: 70px;
+        background: url("../img/sprite.png") no-repeat;
+      }
+
+    }
+
+    &__descr {
+      color: $white;
+      font-size: 16px;
+      line-height: 27px;
+    }
+
+  }
+
+  .feture_health .feture__title:before  {
+    background-position: -1px -51px;
+  }
+
+  .feture_concentration .feture__title:before  {
+    background-position: -88px -51px;
+  }
+
+  .feture_mind .feture__title:before  {
+    background-position: -173px -51px;
+  }
+
+  .feture_better .feture__title:before  {
+    background-position: -268px -51px;
+  }
+
+  .feture_loss .feture__title:before  {
+    background-position: 0 -157px;
+  }
+
+  .feture_bones .feture__title:before  {
+    background-position: -88px -157px;
+  }
+
+  .feture_flexibility .feture__title:before  {
+    background-position: -173px -157px;
+  }
+
+  .feture_pressure .feture__title:before  {
+    background-position: -268px -157px;
+  }
+
+}
+
+
+@media (max-width: 960px) {
+
+  .fetures {
+
+    .feture {
+      flex-basis: 50%;
+      padding: 0 25px;
+
+      &:nth-child(4),
+      &:nth-child(8) {
+        padding-right: 25px;
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .fetures {
+
+    .feture {
+      flex-basis: 100%;
+    }
+
+  }
+
+}
