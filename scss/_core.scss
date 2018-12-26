@@ -4,6 +4,10 @@
  * Основные стили
  **/
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -15,6 +19,14 @@ body {
 
 .wrap {
   @include min-max(320px, 1200px, 15px);
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+  color: $default;
+  text-transform: uppercase;
 }
 
 p {
