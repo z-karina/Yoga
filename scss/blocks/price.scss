@@ -1,0 +1,127 @@
+.price {
+  padding: 100px 0;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    flex-basis: 32%;
+    min-width: 300px;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 9px 50px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  &__month {
+    color: $white;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $button;
+    border-radius: 10px 10px 0 0;
+    padding: 38px 0;
+  }
+
+  &__valuta {
+    font-size: 32px;
+    line-height: 36px;
+    vertical-align: super;
+    padding-right: 10px;
+  }
+
+  &__value {
+    font-size: 67px;
+    line-height: 75px;
+  }
+
+  .information {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__label {
+      display: block;
+      position: relative;
+      margin-bottom: 35px;
+      
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 1px;
+        background-color: #d7d7d7;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &__descr,
+    &__input,
+    &__input::placeholder,
+    &__nutrition {
+      font-size: 18px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: $grey;
+    }
+
+    &__input {
+      border: 0;
+      width: 112px;
+      font-size: 16px;
+      padding-top: 5px;
+    }
+  }
+
+  &__button {
+    display: block;
+    @include btn($fz: 18px, $br: 20px);
+    line-height: 24px;
+    padding: 13px 0;
+    margin: 50px auto 0;
+    @include transition;
+  }
+
+}
+
+@media (max-width: 960px) {
+
+  .price {
+
+    &__container {
+      justify-content: space-around;
+    }
+
+    &__item {
+      flex-basis: 45%;
+      margin-bottom: 40px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 750px) {
+
+  .price {
+
+    &__item {
+      flex-basis: 55%;
+    }
+
+  }
+
+}

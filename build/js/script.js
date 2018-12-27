@@ -27,6 +27,16 @@ $(document).ready(function () {
         dots: false,
         items: 1
     })
+
+    $('.price__button').hover(
+        function(){
+            $('.price__month').css('background-color','#475bf1');
+            $('.price__month').css('transition','0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000)');
+        },
+        function(){
+            $('.price__month').css('background-color','#5b6ceb');
+        }
+    )
 });
 
 
