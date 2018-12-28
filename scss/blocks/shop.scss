@@ -1,0 +1,21 @@
+.shop {
+  padding-bottom: 135px;
+  background: #fff url(../img/shop-bg.png) no-repeat right 430px;
+  background-size: initial;
+}
+
+@media (max-width: 1300px) {
+
+  .shop {
+    padding-bottom: 35px;
+  }
+
+}
+
+@media (max-width: 960px) {
+
+  .shop {
+    background-position: right 125%;
+  }
+
+}

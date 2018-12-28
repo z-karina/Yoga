@@ -11,6 +11,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  line-height: 22px;
 }
 
 .container {
@@ -26,6 +27,21 @@ h2 {
   line-height: 45px;
   font-weight: 700;
   color: $default;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+  color: $title-descr;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: $white;
   text-transform: uppercase;
 }
 

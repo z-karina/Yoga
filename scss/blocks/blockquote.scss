@@ -1,9 +1,10 @@
-.review {
+.blockquote {
 
-  .review-slider {
+  .blockquote-slider {
     position: relative;
-    padding: 35px 100px 60px 60px;
+    padding: 35px 106px 60px 60px;
     border-radius: 8px;
+    background: $white;
     box-shadow: 0px 9px 50px 0px rgba(0, 0, 0, 0.1);
 
     &__item {
@@ -82,6 +83,7 @@
     }
 
     &__descr {
+      display: block;
       color: #777;
       font-weight: 400;
     }
@@ -104,13 +106,95 @@
   button.owl-dot:last-child {
     margin-bottom: 0;
   }
+
+  .trainer {
+    width: 220px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    top: -35px;
+    left: 34%;
+    transform: translateX(-34%);
+
+    &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__photo {
+      position: relative;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      border: 2px solid #d7d7d7;
+      background: $white;
+      margin-right: 10px;
+    }
+
+    &__img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    &__name {
+      font-weight: 700;
+    }
+
+    &__descr {
+      font-size: 12px;
+    }
+
+    .owl-carousel .owl-item img {
+      width: 60px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+      position: absolute;
+      background: $white url("../img/sprite.png") no-repeat -329px 9px;
+      width: 30px;
+      height: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -30px;
+      border: 0;
+      border-radius: 50%;
+      box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      outline: 0;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+      left: auto;
+      right: -30px;
+      background-position: -382px 9px;
+    }
+
+    .owl-prev span,
+    .owl-next span {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 1300px) {
 
-  .review {
+  .blockquote {
     width: calc(100% - 70px);
     margin: 0 auto;
+
+    .blockquote-slider {
+
+     &__text:after {
+       right: -35px;
+     }
+
+    }
 
     .owl-dots {
       right: -35px;
@@ -120,9 +204,9 @@
 
 @media (max-width: 1150px) {
 
-  .review {
+  .blockquote {
 
-    .review-slider {
+    .blockquote-slider {
 
       &__text:after {
         right: 0;
@@ -133,9 +217,9 @@
 
 @media (max-width: 960px) {
 
-  .review {
+  .blockquote {
 
-    .review-slider {
+    .blockquote-slider {
 
       &__item {
         flex-direction: column;
@@ -167,18 +251,16 @@
       &__author:before {
         left: -20px;
       }
-
     }
   }
-
 }
 
 @media (max-width: 650px) {
 
-  .review {
+  .blockquote {
     width: 100%;
 
-    .review-slider {
+    .blockquote-slider {
       padding: 35px 20px 50px;
 
       &__info {
@@ -189,7 +271,5 @@
     .owl-dots {
       right: -10px;
     }
-
   }
-
 }

@@ -1,6 +1,8 @@
 $(document).ready(function () {
 
-    $('.slider__item').height($(window).height());
+    $(".menu__link").mPageScroll2id();
+
+    // $('.slider__item').height($(window).height());
 
     $('.slider .owl-carousel').owlCarousel({
         loop:true,
@@ -20,7 +22,7 @@ $(document).ready(function () {
         }
     })
 
-    $('.carousel').owlCarousel({
+    $('.carousel, .trainer__slider').owlCarousel({
         loop: true,
         margin: 0,
         nav: true,
@@ -28,7 +30,7 @@ $(document).ready(function () {
         items: 1
     })
 
-    $('.review-slider').owlCarousel({
+    $('.blockquote-slider').owlCarousel({
         loop: true,
         margin: 0,
         dots: true,
@@ -37,11 +39,32 @@ $(document).ready(function () {
     })
 
 
-    $('.price__button').hover(
+    let el1 = $('.price__button:eq(0)')
+    let el2 = $('.price__button:eq(1)')
+    let el3 = $('.price__button:eq(2)')
+    el1.hover(
         function(){
-            $('.price__month').css('background-color','red');
-            $('.price__month').css('transition','0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000)');
+            $('.price__month:eq(0)').css('background-color','#475bf1');
         },
+
+        function(){
+            $('.price__month').css('background-color','#5b6ceb');
+        }
+    )
+    el2.hover(
+        function(){
+            $('.price__month:eq(1)').css('background-color','#475bf1');
+        },
+
+        function(){
+            $('.price__month').css('background-color','#5b6ceb');
+        }
+    )
+    el3.hover(
+        function(){
+            $('.price__month:eq(2)').css('background-color','#475bf1');
+        },
+
         function(){
             $('.price__month').css('background-color','#5b6ceb');
         }

@@ -4,6 +4,7 @@
     background: url("../img/slide-1.jpg") no-repeat center;
     background-size: cover;
     position: relative;
+    min-height: 600px;
 
     &:after {
       content: '';
@@ -23,18 +24,20 @@
     align-items: center;
     z-index: 1;
     height: 100%;
+    padding: 200px 0 100px;
   }
 
   .form__wrap {
     flex-basis: 50%;
     display: flex;
     justify-content: flex-end;
-    padding-right: 90px;
+    padding-right: 42px;
   }
 
   &__info {
     flex-basis: 50%;
     box-sizing: border-box;
+    padding-left: 50px;
   }
 
   &__title {
@@ -80,7 +83,7 @@
   .slider {
 
     &__item {
-      padding: 50px 0;
+      padding: 15% 0 0;
     }
 
     &__content {
@@ -118,3 +121,4 @@
   }
 
 }
+
